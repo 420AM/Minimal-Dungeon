@@ -4,10 +4,10 @@
 
 ( )------{===================================================>
 
-COMPATIBILITY: tested on Garlic OS 1.0.8 (updating soon)
+COMPATIBILITY: tested on Garlic OS 1.3.2
 
 # INSTALLATION
-- On partition containing 'CFW' folder, copy the 'CFW' folder to replace the existing 'skin' folder
+- On partition containing 'CFW' folder, copy the 'CFW' folder
 - On partition containing 'boot_logo.bmp', replace boot_logo.bmp for 1-bit style Anbernic orginal bootlogo
 
 ## IMAGE FORMATTING
@@ -24,10 +24,15 @@ COMPATIBILITY: tested on Garlic OS 1.0.8 (updating soon)
 - "text-margin": 16,
 - This will re-align the text back to center like the default skin
 
-#### ACKNOWLEDGEMENTS
+#### NOTES
+
+- Unfortunately, I noticed a flaw in this skin, when hitting start to change the time/date/language this skin will produce black text on top of a mostly black background. If anyone knows a solution hit me up.
+- I only have the english.json settings file to accomodate the font set at this time, if anyone is adapting for another language please send it my way and I will include in the official repository
+
+##### ACKNOWLEDGEMENTS
 - This skin was originally based off Platinum by Jason Scheirer (https://github.com/jasonbot/platinum-garlic)
 - Font is [ChiKareGo](http://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=3778)
 - System logos are from [Express Mode](https://www.rg35xx.com/temas-garlicos/) and friends on [www.rg35xx.com](https://www.rg35xx.com/)
-- Several icons are modified from [ansdor](https://ansdor.itch.io/button-icons)
+- Button icons are modified from [ansdor](https://ansdor.itch.io/button-icons)
 
 ( )------{===================================================>
